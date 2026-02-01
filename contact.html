@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/Forum-Regular.ttf">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Pixnova : Contact </title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container-fluid">
+            <a href="#About" class="navbar-brand logo">
+                <img src="images/FullLogo_Transparent_NoBuffer.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars fs-3"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="accuile.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- section -->
+    <div class="container py-5 px-3">
+        <!-- Header -->
+        <header class="mb-5">
+            <h1 class="display-4 fw-bold text-brown playfair mb-3">Contactez Nous</h1>
+            <p class="text-muted lead">
+                Votre projet nous tient à cœur et nous avons hâte d'en savoir plus! Veuillez remplir ce formulaire et un
+                membre
+                de notre équipe vous contactera sous peu.
+            </p>
+        </header>
+
+        <!-- Form -->
+        <form class="row g-4">
+            <div class="col-md-6">
+                <label class="form-label text-muted">Nom</label>
+                <input type="text" class="form-control" />
+                <small class="form-text text-uppercase text-brown">Nom</small>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label text-muted invisible">Prénom</label>
+                <input type="text" class="form-control" />
+                <small class="form-text text-uppercase text-brown">Prénom</small>
+            </div>
+
+            <div class="col-12">
+                <label class="form-label text-muted">Téléphone</label>
+                <input type="tel" class="form-control" placeholder="(+555) 555-1234" />
+            </div>
+
+            <div class="col-12">
+                <label class="form-label text-muted">Email <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" required />
+            </div>
+
+            <div class="col-12">
+                <label class="form-label text-muted">Lieu de l'événement</label>
+                <input type="text" class="form-control" placeholder="Agafay" />
+            </div>
+
+            <div class="col-12">
+                <label class="form-label text-muted">Nombre de participants</label>
+                <select class="form-select">
+                    <option value="1">1</option>
+                    <option value="2-10">2-10</option>
+                    <option value="11-50">11-50</option>
+                    <option value="51-100">51-100</option>
+                    <option value="100+">100+</option>
+                </select>
+            </div>
+
+            <div class="col-12">
+                <label class="form-label text-muted">Date de l'événement</label>
+                <input type="text" class="form-control" placeholder="01-01-2024" />
+            </div>
+
+            <div class="col-12">
+                <label class="form-label text-muted">Message</label>
+                <textarea class="form-control" rows="5" placeholder="Message..."></textarea>
+            </div>
+
+            <div class="col-12">
+                <label class="form-label text-muted">Budget</label>
+                <div class="input-group">
+                    <span class="input-group-text text-brown border-end-0">€</span>
+                    <input type="text" class="form-control border-start-0" />
+                </div>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary-custom px-4 py-2">Envoyer</button>
+            </div>
+        </form>
+
+        <!-- Footer Info -->
+        <div class="row mt-5 align-items-center g-4">
+            <div class="col-md-6">
+                <div class="border rounded overflow-hidden" style="height: 250px;">
+                    <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop"
+                        class="img-fluid h-100 w-100 object-fit-cover" alt="Map location in Marrakech">
+                </div>
+            </div>
+            <div class="col-md-6 px-5 ">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="icon-circle me-3"><i class="fas fa-phone"></i></div>
+                    <span class="fs-5 playfair">(212) 775-928372</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <div class="icon-circle me-3"><i class="fas fa-envelope"></i></div>
+                    <span class="fs-5 playfair">hello@linagraphy.com</span>
+                </div>
+                <div class="d-flex align-items-start">
+                    <div class="icon-circle me-3 mt-1"><i class="fas fa-location-arrow"></i></div>
+                    <span class="fs-5 playfair text-uppercase">IMM M Abwab Gueliz 44000<br />MARRAKECH</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <a href="#about" class="mb-3 d-block logo brand-footer"><img
+                            src="images/FullLogo_Transparent_NoBuffer.png" alt=""></a>
+                    <p class="footer-desc">
+                        Architectes de mémoires capturant l'essence de Marrakech avec excellence artistique et
+                        authenticité culturelle.
+                    </p>
+                    <div class="social-links mt-4 d-flex gap-2">
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram fs-5"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-pinterest fs-5"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+                    <h5>Liens Rapides</h5>
+                    <ul class="footer-links list-unstyled p-0 m-0">
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-4 mb-md-0">
+                    <h5>Services</h5>
+                    <ul class="footer-links list-unstyled p-0 m-0">
+                        <li><a href="services.html">Mariages</a></li>
+                        <li><a href="services.html">Événements corporatifs</a></li>
+                        <li><a href="services.html">Célébrations culturelles</a></li>
+                        <li><a href="services.html">Vidéographie</a></li>
+                        <li><a href="services.html">Post-production</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h5>Contact</h5>
+                    <ul class="footer-links list-unstyled p-0 m-0">
+                        <li><a href=""><i class="icon far fa-map me-1"></i> Marrakech, Maroc</a></li>
+                        <li><a href=""><i class="icon fas fa-phone me-1"></i> +212 775-928372</a></li>
+                        <li><a href=""><i class="icon far fa-envelope me-1"></i> Pixenova@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pixenova : Photographe Marrakech. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="style/bootstrap.bundle.js"></script>
+    <script src="style/all.min.js"></script>
+
+
+</body>
+
+</html>

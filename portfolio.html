@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/Forum-Regular.ttf">
+    <link rel="stylesheet" href="main.css">
+    <title>Pixnova : portfolio </title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container-fluid">
+            <a href="#About" class="navbar-brand logo">
+                <img src="images/FullLogo_Transparent_NoBuffer.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars fs-3"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link nav-link-custom " href="accuile.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom active" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- hero section -->
+    <section class="position-relative pt-5 pb-5 bg-gradient-warm overflow-hidden">        
+
+        <div class="container position-relative z-1">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+
+                    <h1 class="fw-bold display-4 mb-4 text-dark animate-fade-in">
+                        Notre Portfolio
+                    </h1>
+
+                    <p class="fs-5 text-secondary mb-4 animate-fade-in stagger-1">
+                        Découvrez notre collection de moments précieux capturés avec excellence artistique et
+                        authenticité culturelle
+                    </p>
+
+                    <div
+                        class="d-flex justify-content-center align-items-center gap-2 text-secondary animate-fade-in stagger-2">
+                        <i class="fa-solid fa-camera-retro text-warning"></i>
+                        <span class="fw-medium small">Plus de 500 événements capturés depuis 2018</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- filter section -->
+    <section id="filterSection" class="position-sticky top-0 py-3 bg-surface shadow-warm z-3">
+        <div class="container">
+            <div class="row g-3 align-items-center justify-content-between">
+
+
+                <!-- Filtres catégories -->
+                <div class="col-lg">
+                    <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start">
+
+
+                        <button class="filter-btn active" data-category="all">
+                            <i class="fa-solid fa-table-cells"></i>
+                            <span>Tout</span>
+                            <span class="count">48</span>
+                        </button>
+
+
+                        <button class="filter-btn" data-category="weddings">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Mariages</span>
+                            <span class="count">24</span>
+                        </button>
+
+
+                        <button class="filter-btn" data-category="corporate">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <span>Corporatif</span>
+                            <span class="count">12</span>
+                        </button>
+
+
+                        <button class="filter-btn" data-category="cultural">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>Culturel</span>
+                            <span class="count">12</span>
+                        </button>
+
+
+                    </div>
+                </div>
+
+
+                <!-- Recherche & actions -->
+                <div class="col-lg-auto">
+                    <div class="d-flex flex-column flex-lg-row gap-2">
+
+
+                        <div class="position-relative">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            <input type="text" class="form-control search-input"
+                                placeholder="Rechercher par lieu, style…">
+                        </div>
+
+
+                        <button class="btn btn-ghost d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-arrow-up-wide-short"></i>
+                            <span>Trier</span>
+                        </button>
+
+
+                        <button class="btn btn-ghost d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-rotate-right"></i>
+                            <span>Réinitialiser</span>
+                        </button>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- galerie section -->
+    <div class="galerie-masonry ">
+
+        <div class="image-item">
+            <span class="badge-categorie">Mariage</span>
+            <img src="les image/mariage/mariage5.png" alt="Mariage traditionnel marocain dans un riad luxueux">
+            <div class="image-overlay">
+                <div class="image-titre">Sarah & Karim</div>
+                <div class="image-description">Mariage traditionnel marocain avec décoration florale somptueuse et
+                    architecture authentique à Marrakech.</div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Mariage</span>
+            <img src="les image/mariage/mariage4.png" alt="Mariage moderne dans un jardin luxuriant">
+            <div class="image-overlay">
+                <div class="image-titre">Emma & Youssef</div>
+                <div class="image-description">Photographie artistique avec éclairage naturel et composition moderne et
+                    élégante.</div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Mariage</span>
+            <img src="les image/mariage/mariage3.png" alt="Mariage destination en bord de mer">
+            <div class="image-overlay">
+                <div class="image-titre">Sophie & Ahmed</div>
+                <div class="image-description">Ambiance bohème et décoration naturelle au coucher du soleil à Essaouira.
+                </div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Mariage</span>
+            <img src="les image/mariage/mariage2.png" alt="Mariage marocain caftan luxueux">
+            <div class="image-overlay">
+                <div class="image-titre">Leila & Omar</div>
+                <div class="image-description">Mariée en caftan luxueux, bijoux traditionnels et décoration florale
+                    élaborée.</div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Mariage</span>
+            <img src="les image/mariage/mariage1.jpg" alt="Mariage moderne minimaliste">
+            <div class="image-overlay">
+                <div class="image-titre">Claire & Mehdi</div>
+                <div class="image-description">Couple élégant et décoration contemporaine, photographie artistique en
+                    noir
+                    et blanc.</div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Culturel</span>
+            <img src="les image/cultural/photo-1533174072545-7a4b6ad7a6c3.jpg" alt="Festival culturel marocain">
+            <div class="image-overlay">
+                <div class="image-titre">Festival des Arts</div>
+                <div class="image-description">Danseurs traditionnels en costumes colorés, musique live et célébration
+                    authentique.</div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Corporatif</span>
+            <img src="les image/cultural/photo-1608454368539-91736e810393.jpg"
+                alt="Conférence d'entreprise professionnelle">
+            <div class="image-overlay">
+                <div class="image-titre">Tech Summit 2024</div>
+                <div class="image-description">Orateur dynamique sur scène, éclairage technique et audience engagée à
+                    Marrakech.</div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Corporatif</span>
+            <img src="les image/cultural/photo-1667970246776-9b6656e72156.jpg" alt="Lancement de produit élégant">
+            <div class="image-overlay">
+                <div class="image-titre">Innovation Launch</div>
+                <div class="image-description">Présentation moderne, éclairage d'ambiance et invités professionnels à
+                    Casablanca.</div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Corporatif</span>
+            <img src="les image/cultural/rocket_gen_img_13de23134-1765890850783.png" alt="Gala d'entreprise luxueux">
+            <div class="image-overlay">
+                <div class="image-titre">Annual Gala Evening</div>
+                <div class="image-description">Décoration raffinée, tables élégantes et ambiance festive
+                    professionnelle.
+                </div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Culturel</span>
+            <img src="les image/cultural/rocket_gen_img_1f8d226a8-1765065126959.png" alt="Cérémonie du Henné">
+            <div class="image-overlay">
+                <div class="image-titre">Cérémonie du Henné</div>
+                <div class="image-description">Rituel authentique, décoration artisanale et tenues traditionnelles à
+                    Fès.
+                </div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Culturel</span>
+            <img src="les image/coborat/rocket_gen_img_11c8db986-1766988519257.png" alt="Soirée Andalouse">
+            <div class="image-overlay">
+                <div class="image-titre">Soirée Andalouse</div>
+                <div class="image-description">Musique traditionnelle, danse folklorique et atmosphère festive
+                    authentique.
+                </div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Corporatif</span>
+            <img src="les image/coborat/rocket_gen_img_13abc4fc3-1764698980342.png" alt="Business Forum Marrakech">
+            <div class="image-overlay">
+                <div class="image-titre">Business Forum</div>
+                <div class="image-description">Conférence internationale avec panel d'experts et networking
+                    professionnel.
+                </div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Corporatif</span>
+            <img src="les image/coborat/rocket_gen_img_1680a7176-1767204442970.png"
+                alt="Lancement produit technologique">
+            <div class="image-overlay">
+                <div class="image-titre">Tech Reveal</div>
+                <div class="image-description">Démonstration interactive, stand moderne et invités VIP à Rabat.</div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Culturel</span>
+            <img src="les image/coborat/rocket_gen_img_184d701b6-1766571201784.png" alt="Festival de musique Gnaoua">
+            <div class="image-overlay">
+                <div class="image-titre">Festival Gnaoua</div>
+                <div class="image-description">Musiciens traditionnels, instruments authentiques et foule enthousiaste.
+                </div>
+            </div>
+        </div>
+
+        <div class="image-item">
+            <span class="badge-categorie">Culturel</span>
+            <img src="les image/coborat/rocket_gen_img_196a56099-1764729006994.png" alt="Cérémonie du thé marocain">
+            <div class="image-overlay">
+                <div class="image-titre">Cérémonie du Thé</div>
+                <div class="image-description">Service élégant, pâtisseries artisanales et hospitalité marocaine
+                    authentique.</div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <a href="#about" class="mb-3 d-block logo brand-footer"><img
+                            src="images/FullLogo_Transparent_NoBuffer.png" alt=""></a>
+                    <p class="footer-desc">
+                        Architectes de mémoires capturant l'essence de Marrakech avec excellence artistique et
+                        authenticité culturelle.
+                    </p>
+                    <div class="social-links mt-4 d-flex gap-2">
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram fs-5"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-pinterest fs-5"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+                    <h5>Liens Rapides</h5>
+                    <ul class="footer-links list-unstyled p-0 m-0">
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-4 mb-md-0">
+                    <h5>Services</h5>
+                    <ul class="footer-links list-unstyled p-0 m-0">
+                        <li><a href="services.html">Mariages</a></li>
+                        <li><a href="services.html">Événements corporatifs</a></li>
+                        <li><a href="services.html">Célébrations culturelles</a></li>
+                        <li><a href="services.html">Vidéographie</a></li>
+                        <li><a href="services.html">Post-production</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h5>Contact</h5>
+                    <ul class="footer-links list-unstyled p-0 m-0">
+                        <li><a href=""><i class="icon far fa-map me-1"></i> Marrakech, Maroc</a></li>
+                        <li><a href=""><i class="icon fas fa-phone me-1"></i> +212 775-928372</a></li>
+                        <li><a href=""><i class="icon far fa-envelope me-1"></i> Pixenova@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pixenova : Photographe Marrakech. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="style/bootstrap.bundle.js"></script>
+    <script src="style/all.min.js"></script>
+</body>
+
+</html>
